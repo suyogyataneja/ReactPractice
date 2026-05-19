@@ -1,0 +1,18 @@
+# Map Function usecase 
+
+const names =['Firstname', 'lastname']
+function Post(){
+
+return (<div>
+    <div>
+        {names.map(((name,index) => (
+            <p key={index}>{name}</p>
+        )))}
+
+    </div>
+  
+    <p>React.js is awesome</p>
+</div>);
+}
+
+export default Post;
